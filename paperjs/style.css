@@ -1,0 +1,5 @@
+/* Put your css in here */
+
+body { background: #ccc; }
+canvas { width: 400px; height: 400px; border: 1px dotted blue; }
+pre { background: #eee; padding: 10px; white-space: normal; text-overflow: ellipsis; overflow: hidden; word-break: break-all; word-wrap: break-word; display: block; font-size: .8em; }

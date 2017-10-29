@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html ng-app="plunker">
+
+  <head>
+    <meta charset="utf-8" />
+    <title>AngularJS Plunker</title>
+    <script>document.write('<base href="' + document.location + '" />');</script>
+    <link rel="stylesheet" href="style.css" />
+    <script src="https://cdn.bootcss.com/angular.js/1.5.8/angular.js"></script>
+    <script src="https://cdn.bootcss.com/angular.js/1.5.8/angular-route.js"></script>
+    <script src="https://cdn.bootcss.com/paper.js/0.9.10/paper-full.js"></script>
+
+    <script src="app.js"></script>
+    <script src="draw.js"></script>
+  </head>
+
+  <body ng-controller="drawCtrl">
+		<!-- <p>Shape width: <input type="range" min="100" max="200" step="1" ng-model="objectValue.width" ng-value="">{{objectValue.width}}</p>
+		    <hr> -->
+    <a href="#/home">Home</a> / <a href="#/draw">Draw1</a> / <a href="#/draw2">Draw2</a>
+      <hr>
+    <p>paper.project.activeLayer.children:</p>
+    <pre>{{objectValue.message}}</pre>
+      <hr>
+    <button ng-click="addShape()" >Add shapes</button>
+      <hr>    
+    <div ng-view></div>
+  </body>
+
+</html>
